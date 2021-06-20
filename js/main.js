@@ -27,9 +27,9 @@ const gap = 90;
 let score = 0;
 
 // Позиция птички start.
-let xPos = 5;
+let xPos = 10;
 let yPos = 200;
-let gravity = 1.3;
+let gravity = 1;
 // Позиция птички end.
 
 // При нажатии start.
@@ -38,8 +38,8 @@ const moveUp = () => {
   fly.play();
 };
 document.addEventListener("touchstart", moveUp);
-document.addEventListener("keydown", moveUp);
-document.addEventListener("click", moveUp);
+// document.addEventListener("keydown", moveUp);
+// document.addEventListener("click", moveUp);
 // При нажатии end.
 
 //Создание блока
